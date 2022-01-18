@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+
+/* section populaire  */
+.popu{
+    background-color: #2C2C2C;
+    color: white;
+    padding: 30px;
+    padding-bottom: 6px;
+}
+
+.popu__titleArea{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 347px;
+    margin-bottom: 21px;
+}
+
+.popu__icon{
+    font-size: 28px;
+}
+
+
+.popu__card{
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    align-items: center;
+    min-height: 121px;
+    color: #2C2C2C;
+    margin-bottom: 24px;
+}
+
+.popu__imgCont{
+    max-width: 108px;
+    max-height: 108px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.popu__img{
+    width: 100%;
+    min-width: 200px;
+}
+
+
+.popu__txtCont{
+    margin-left: 4px;
+    padding-left: 3px;
+}
+
+.popu__cardTxt{
+    font-size: 14px;
+}
+
+.popu__raitingCont .fa-star{
+    color: yellow;
+}
+
+
+.popu__raitingCont .popu__raiting--gris{
+    color: #aba9a9;
+}
+
+
+/* recommend  */
+.recomm{
+    background-color: #2C2C2C;
+    color: white;
+    padding: 30px;
+    padding-bottom: 6px;
+}
+
+
+.recomm__titleArea{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 347px;
+    margin-bottom: 21px;
+}
+
+.recomm__icon{
+    font-size: 28px;
+}
+
+
+.recomm__card{
+    background-color: rgb(238, 237, 237);
+    display: flex;
+    align-items: center;
+    min-height: 121px;
+    color: #2C2C2C;
+    margin-bottom: 24px;
+}
+
+.recomm__imgCont{
+    max-width: 108px;
+    max-height: 108px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+
+.recomm__img{
+    width: 100%;
+    min-width: 200px;
+}
+
+.recomm__txtCont{
+    
+}
